@@ -12,7 +12,8 @@ const Main = () => {
             Building Things that Matter
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hello, I'm <span className='text-[#5651e5]'>Jacob</span>
+            Hello, I&#39;m{' '}
+            <span className='text-[#5651e5]'>Jacob</span>
           </h1>
           <h1 className='py-2 text-gray-700'>
             Lorem ipsum dolor sit amet consectetur.

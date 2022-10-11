@@ -27,7 +27,7 @@ const About = () => {
             rem distinctio quae.
           </p>
           <p className='py-2 text-gray-600 underline cursor-pointer'>
-            Below you'll find some of my most recent work.
+            Below you&#39;ll find some of my most recent work.
           </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
