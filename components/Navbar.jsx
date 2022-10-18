@@ -7,7 +7,6 @@ import {
   AiOutlineMenu,
 } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {
@@ -77,11 +76,11 @@ const Navbar = () => {
                 About
               </li>
             </Link>
-            <Link href='/#skills'>
+            {/*<Link href='/#skills'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 Skills
               </li>
-            </Link>
+    </Link> */}
             <Link href='/#projects'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 Projects
@@ -116,12 +115,9 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image
-                  src='/../public/assets/navLogo.png'
-                  width='87'
-                  height='35'
-                  alt='/'
-                ></Image>
+                <h3 className='text-[#4f6d7a]'>
+                  Jacob Benson | Front End Developer
+                </h3>
               </Link>
               <div
                 onClick={handleNav}
@@ -130,12 +126,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Hic, quibusdam?
-              </p>
-            </div>
+            <div className='border-b border-gray-300 my-4'></div>
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
@@ -155,14 +146,14 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href='/#skills'>
+              {/* <Link href='/#skills'>
                 <li
                   onClick={() => setNav(false)}
                   className='py-4 text-sm'
                 >
                   Skills
                 </li>
-              </Link>
+        </Link> */}
               <Link href='/#projects'>
                 <li
                   onClick={() => setNav(false)}
@@ -181,21 +172,35 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+              <p className='uppercase tracking-widest pb-4 text-[#4f6d7a]'>
                 Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaLinkedinIn />
+                  <a
+                    href='https://www.linkedin.com/in/jacob-benson-885004240/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <FaLinkedinIn />
+                  </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaGithub />
+                  <a
+                    href='https://github.com/bensonbjacob'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <FaGithub />
+                  </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <AiOutlineMail />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <BsFillPersonLinesFill />
+                  <a
+                    href='halter_curds.0r@icloud.com'
+                    target='_blank'
+                  >
+                    <AiOutlineMail />
+                  </a>
                 </div>
               </div>
             </div>

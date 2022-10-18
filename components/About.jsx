@@ -20,7 +20,7 @@ const About = () => {
             shortly after finishing high school and I didn&#39;t find
             many opportunities to use my computer skills there. I then
             began honing my skills as a carpenter and electrician in
-            order to support myself. I've spent the past ~20 years
+            order to support myself. I&#39;ve spent the past ~20 years
             building and remodeling homes, restaurants and retail
             buildings all across the US and Caribbean.
           </p>
