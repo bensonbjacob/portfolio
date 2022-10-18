@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -11,27 +12,32 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#4f6d7a]'>
             About
           </p>
-          <h2 className='py-4'>Lorem ipsum dolor sit amet.</h2>
-          <p className='py-2 text-gray-600'>Lorem ipsum dolor sit.</p>
+          <h2 className='py-4'>I love to build.</h2>
           <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Nisi obcaecati esse nihil quia delectus, animi, velit
-            aspernatur repudiandae sapiente ipsa eum illo quasi eius
-            ullam. Laborum est velit officia. Quaerat, eius, earum
-            soluta deserunt, dolor illo ab quasi nulla tempore facilis
-            assumenda facere numquam esse?
+            I started coding in the 90s with by making HTML pages and
+            simple QBASIC apps. That experience led to creating IRC
+            bots and managing a local BBS. I moved to the Caribbean
+            shortly after finishing high school and I didn&#39;t find
+            many opportunities to use my computer skills there. I then
+            began honing my skills as a carpenter and electrician in
+            order to support myself. I've spent the past ~20 years
+            building and remodeling homes, restaurants and retail
+            buildings all across the US and Caribbean.
           </p>
           <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Pariatur placeat saepe atque totam obcaecati aliquid
-            aliquam facilis ea, voluptatem harum nobis non quisquam
-            asperiores quas molestias provident voluptatibus officiis
-            quidem? Praesentium, facere? Quibusdam accusantium ipsum
-            rem distinctio quae.
+            I&#39;ve recently found myself in a unique position where
+            I could focus on learning modern web development while
+            also remodeling our home in Auburn, AL. I have built a few
+            small static sites for friends and businesses while also
+            building various projects to demonstrate what I have
+            learned. I am now pursuing a full-time remote web
+            developer position.
           </p>
-          <p className='py-2 text-gray-600 underline cursor-pointer'>
-            Below you&#39;ll find some of my most recent work.
-          </p>
+          <Link href='/#projects'>
+            <p className='py-2 text-gray-600 underline cursor-pointer'>
+              Below you&#39;ll find some of my most recent work.
+            </p>
+          </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <img className='rounded-xl' src='' alt='' />
