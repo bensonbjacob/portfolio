@@ -58,12 +58,9 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          <Image
-            src='/../public/assets/jacob_logo.png'
-            alt='/'
-            width='125'
-            height='50'
-          />
+          <h3 className='text-[#4f6d7a]'>
+            Jacob Benson | Front End Developer
+          </h3>
         </Link>
         <div>
           <ul
