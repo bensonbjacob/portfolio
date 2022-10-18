@@ -176,32 +176,33 @@ const Navbar = () => {
                 Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <a
-                    href='https://www.linkedin.com/in/jacob-benson-885004240/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
+                <a
+                  href='https://www.linkedin.com/in/jacob-benson-885004240/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
-                  </a>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <a
-                    href='https://github.com/bensonbjacob'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
+                  </div>
+                </a>
+                <a
+                  href='https://github.com/bensonbjacob'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
-                  </a>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <a
-                    href='halter_curds.0r@icloud.com'
-                    target='_blank'
-                  >
+                  </div>
+                </a>
+                <a
+                  href='mailto:halter_curds.0r@icloud.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <AiOutlineMail />
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
