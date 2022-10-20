@@ -1,9 +1,8 @@
 import React from 'react';
 import realtorImg from '../public/assets/projects/property.png';
-import restaurantImg from '../public/assets/projects/restaurant.png';
+import restaurantImg from '../public/assets/projects/restaurant.jpg';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
-
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
