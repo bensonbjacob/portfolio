@@ -1,6 +1,6 @@
 import React from 'react';
 import realtorImg from '../public/assets/projects/property.png';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import restaurantImg from '../public/assets/projects/restaurant.png';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 
@@ -21,9 +21,9 @@ const Projects = () => {
             projectUrl='/realtor'
           />
           <ProjectItem
-            title='Random App 1'
-            backgroundImg={cryptoImg}
-            projectUrl='/property'
+            title='Restaurant Page'
+            backgroundImg={restaurantImg}
+            projectUrl='/restaurant'
           />
           <ProjectItem
             title='Random App 2'
