@@ -25,7 +25,7 @@ const realtor = () => {
         <div className='col-span-4'>
           <h2 className='pb-4'>Overview</h2>
           <p className='pb-4'>
-            This is a simple site that allows you to filter available
+            This is a NextJS app that allows you to filter available
             properties in the UAE using the free Bayut API. This was
             my first NextJS project. It allowed me to become familiar
             with the framework while also allowing me to practice
