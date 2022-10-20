@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://jacobbenson.dev",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,3 +23,11 @@
     "tailwindcss": "^3.1.8"
   }
 }
+
+
+According to my check, your certificate is pending domain control validation via the CNAME record creation method. In order to pass the validation via this method, it is necessary to create a CNAME record. Feel free to use this guide: https://www.namecheap.com/support/knowledgebase/article.aspx/9256/29/how-to-edit-dns-zone-in-cpanel/ ...
+
+Show All
+ 
+To find the values for the record please follow these steps: Locate the "SSL certificates" section> click on the Details button next to the needed certificate> click on the drop-down menu next to the 'Edit Methods'> press the Get values button.
+19 Oct 2022, 3:16 PM
