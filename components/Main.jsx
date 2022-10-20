@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import Link from 'next/link';
 
 const Main = () => {
   return (
