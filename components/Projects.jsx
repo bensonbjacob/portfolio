@@ -1,7 +1,7 @@
 import React from 'react';
 import realtorImg from '../public/assets/projects/property.png';
 import restaurantImg from '../public/assets/projects/restaurant.jpg';
-import netflixImg from '../public/assets/projects/netflix.jpg';
+import monstersImg from '../public/assets/projects/monsters.png';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
 
@@ -25,9 +25,9 @@ const Projects = () => {
             projectUrl='/restaurant'
           />
           <ProjectItem
-            title='Random App 2'
-            backgroundImg={netflixImg}
-            projectUrl='/property'
+            title='Monsters Rolodex'
+            backgroundImg={monstersImg}
+            projectUrl='/monsters'
           />
           <ProjectItem
             title='Random App 3'
