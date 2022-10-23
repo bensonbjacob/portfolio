@@ -29,11 +29,11 @@ const Projects = () => {
             backgroundImg={monstersImg}
             projectUrl='/monsters'
           />
-          <ProjectItem
+          {/*<ProjectItem
             title='Random App 3'
             backgroundImg={twitchImg}
             projectUrl='/property'
-          />
+  />*/}
         </div>
       </div>
     </div>

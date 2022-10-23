@@ -25,8 +25,8 @@ const restaurant = () => {
         <div className='col-span-4'>
           <h2 className='pb-4'>Overview</h2>
           <p className='pb-4'>
-            This is simple react app that serves as the web page for
-            an imaginary restaurant. The site uses custom CSS styles
+            This is a React app that serves as the web page for an
+            imaginary restaurant. The site uses custom CSS styles
             without relying on any frameworks.
           </p>
           <a
