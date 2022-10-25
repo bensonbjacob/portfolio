@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import restaurantImg from '../public/assets/projects/restaurant.jpg';
+import restaurantImg from '../public/assets/projects/restaurant.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import realtorImg from '../public/assets/projects/property.png';
-import restaurantImg from '../public/assets/projects/restaurant.jpg';
+import restaurantImg from '../public/assets/projects/restaurant.png';
 import monstersImg from '../public/assets/projects/monsters.png';
 import gutterImg from '../public/assets/projects/gutter.png';
 import ProjectItem from './ProjectItem';
