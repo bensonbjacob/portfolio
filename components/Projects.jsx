@@ -2,7 +2,7 @@ import React from 'react';
 import realtorImg from '../public/assets/projects/property.png';
 import restaurantImg from '../public/assets/projects/restaurant.jpg';
 import monstersImg from '../public/assets/projects/monsters.png';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import gutterImg from '../public/assets/projects/gutter.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -14,6 +14,11 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>Things I&#39;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Gutter Estimate Calculator'
+            backgroundImg={gutterImg}
+            projectUrl='/gutter'
+          />
           <ProjectItem
             title='Realtor App'
             backgroundImg={realtorImg}
@@ -29,11 +34,6 @@ const Projects = () => {
             backgroundImg={monstersImg}
             projectUrl='/monsters'
           />
-          {/*<ProjectItem
-            title='Random App 3'
-            backgroundImg={twitchImg}
-            projectUrl='/property'
-  />*/}
         </div>
       </div>
     </div>
