@@ -32,8 +32,7 @@ const About = () => {
             also remodeling our home in Auburn, AL. I have built a few
             small static sites for friends and businesses while also
             building various projects to demonstrate what I have
-            learned. I am now pursuing a full-time remote web
-            developer position.
+            learned.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
