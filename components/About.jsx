@@ -24,16 +24,10 @@ const About = () => {
             began honing my skills as a carpenter and electrician in
             order to support myself. I&#39;ve spent the past ~20 years
             building and remodeling homes, restaurants and retail
-            buildings all across the US and Caribbean.
+            buildings all across the US and Caribbean. Now I build
+            with code.
           </p>
-          <p className='py-2 text-gray-600'>
-            I&#39;ve recently found myself in a unique position where
-            I could focus on learning modern web development while
-            also remodeling our home in Auburn, AL. I have built a few
-            small static sites for friends and businesses while also
-            building various projects to demonstrate what I have
-            learned.
-          </p>
+
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Below you&#39;ll find some of my most recent work.
