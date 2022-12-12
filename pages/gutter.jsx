@@ -28,10 +28,10 @@ const gutter = () => {
             Years ago, I helped my friend with his gutter installation
             business for a few weeks while he was expanding. I was
             surprised at how much time he spent composing simple
-            estimates based the measurements he took on each potential
-            job. I had the idea to create a basic calculator and I
-            filed it away under my list of future projects. When I
-            finally found myself with time to work on projects of mine
+            estimates based on the measurements he took on each
+            potential job. I had the idea to create a basic calculator
+            and I filed it away under my list of future projects. When
+            I finally found myself with time to work on projects of my
             own, the gutter calculator was one of the first I
             completed.
           </p>
