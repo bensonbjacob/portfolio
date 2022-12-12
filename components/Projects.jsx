@@ -3,6 +3,7 @@ import realtorImg from '../public/assets/projects/property.png';
 import restaurantImg from '../public/assets/projects/restaurant.png';
 import monstersImg from '../public/assets/projects/monsters.png';
 import gutterImg from '../public/assets/projects/gutter.png';
+import clientImg from '../public/assets/projects/client.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -23,6 +24,11 @@ const Projects = () => {
             title='Realtor App'
             backgroundImg={realtorImg}
             projectUrl='/realtor'
+          />
+          <ProjectItem
+            title='Client Management App'
+            backgroundImg={clientImg}
+            projectUrl='/client'
           />
           <ProjectItem
             title='Restaurant Page'
