@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import jacobImg from '../public/assets/jacob_jacob.png';
+import jacobImg from '../public/assets/jacob.png';
 
 const About = () => {
   return (
@@ -34,8 +34,14 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={jacobImg} alt='/'></Image>
+        <div className='flex flex-wrap justify-center'>
+          <div className='w-10/12 sm:4/12 px-4'>
+            <Image
+              src={jacobImg}
+              className='shadow shadow-gray-400 rounded-full h-auto max-w-full align-middle border-none'
+              alt='/'
+            ></Image>
+          </div>
         </div>
       </div>
     </div>
